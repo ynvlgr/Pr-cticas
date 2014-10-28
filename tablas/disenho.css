@@ -1,0 +1,60 @@
+table {
+	border-spacing: 2px;
+
+}
+thead {
+	background-color: #81DAF5;
+
+}
+th{
+	border-radius: 5px;
+}
+
+td:first-child{
+	background-color: #81DAF5;
+	font-weight: bolder;
+
+}
+
+.registro{
+	text-align: center;
+	font-style:bold;
+	background-color: red;
+}
+
+.inauguracion{
+	text-align: center;	
+	font-style:bold;
+	background-color: blue;
+}
+
+.comida{
+	text-align: center;
+	font-style:bold;
+	background-color: yellow;
+}
+.quince{
+	background-color: gray;
+}
+.cuatro{
+	background-color: #F5A9A9;
+}
+.cinco{
+	background-color: #F525A9;
+}
+.seis{
+	background-color: #F5A419;
+}
+.siete{
+	background-color: #FB79A9;
+}
+
+.cursiva{
+	font-style:italic
+}
+.libre{
+	background-color: #000000;
+}
+td{
+	border-radius: 5px;
+}
