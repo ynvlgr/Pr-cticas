@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>Formulario</title>
+</head>
+
+<body>
+<form name="formulario" method="post" action="formulario.php">
+
+	<fieldset>
+		<legend>FORMULARIO</legend>
+		
+		<!--NOMBRE-->
+		<br><label for="nombre">Nombre: </label>
+		<input type="text" id="nombre" name="nombre" required>
+
+		<!--CORREO-->
+		<br><label for="correo">Correo</label>
+		<input type="email" id="correo" name="mail" required>
+
+		<!--WEB-->
+		<br><label for="paginaWeb">Ingrese su p&aacute;gina</label>
+		<input type="url" id="paginaWeb" name="web">
+
+		<!--FECHA-->
+		<br><label for="nacimiento">Fecha nacimiento</label><br>
+		<input type="date" id="nacimiento" name="fnacimiento">
+
+
+		<!--COLOR-->
+		<br><label for="color">Color favorito</label>
+		<input id="color" type="color" value="#000000" />
+
+		<!--EDAD-->
+		<br><label for="edad">Edad</label>
+		<input type="number" id="edad" name="edad" min="1" max="50" />
+
+		<!--QUÉ TANTO TE GUSTA LA PÁGINA-->
+		<br><label for="puntaje">Qu&eacute; tanto te gusta la p&aacute;gina</label>
+		<input type="range" id="puntaje" name="puntaje" min="1" max="10" />
+
+		<!--TELÉFONO-->
+		<br><label for="numTelefono">Ingrese tu tel&eacute;fono</label>
+		<input type="tel" id="numTelefono" name="telefono" pattern="[d]{10}"><br>
+
+
+		<!--CARRERA-->
+		<br><label for="carrera">Carrera</label>
+		<select name="carrera" id="carrera">
+		  <option value="inf">INFORMATICA</option> 
+		  <option value="com">COMPUTACION</option>
+		  <option value="cye">COMUNICACIONES Y ELECTRONICA</option>
+		  <option value="ingciv">ING. CIVIL</option>
+		  <option value="ingind">ING. INDUSTRIAL</option>
+		  <option value="mat">MATEMATICAS</option>
+		</select>
+
+		<!--CHECKBOX-->
+		<br><label for="bicicleta">BICICLETA</label><input type="checkbox" name="transporte" value="bicicleta" id="bicicleta"><br>
+		<label for="carro">CARRO</label><input type="checkbox" name="transporte" value="carro" id="carro"><br>
+		<label for="camion">CAMION</label><input type="checkbox" name="transporte" value="camion" id="camion"><br>
+		<label for="motocicleta">MOTOCICLETA</label><input type="checkbox" name="transporte" value="motocicleta" id="motocicleta"><br>
+
+		<input type="submit" id="enviar">
+	</fieldset>
+
+</form>
+
+
+
+
+
+
+
+</body>
+</html>
